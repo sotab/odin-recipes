@@ -17,6 +17,10 @@ body {
     width: 50%;
 }
 
+.btn-container {
+    padding: 15px;
+}
+
 /* Headings */
 
 h1 {
@@ -31,6 +35,7 @@ h3 {
     border-bottom: 1px;
     margin: 12px;
     padding: 12px;
+    border-bottom: 1px groove #272626;
 }
 
 /* Image */
@@ -64,9 +69,8 @@ img {
 
 /* Text */
 
-li,
-p {
+li, p{
     color: #272626;
-    text-justify: auto;
-    padding: auto;
+    text-align: left;
+    padding: 8px;
 }
